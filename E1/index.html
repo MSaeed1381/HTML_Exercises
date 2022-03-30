@@ -1,10 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <title>form tutorial</title>
 </head>
 <body>
-$END$
+    <h1>sign up page:</h1>
+    <img src="index.jpg" alt="image not found" height="150" width="100">
+    <br>
+    <progress ></progress>
+    <h3>please complete the form below : </h3>
+    <form>
+        <label for="pic">image : </label>
+        <input id="pic" type="file" name="picture">
+        <br><br>
+        <label for="usrName">user name : </label>
+        <input id="usrName" type="text" name="username">
+        <br><br>
+        <label for="pass">password : </label>
+        <input type="password" id="pass" name="password">
+        <br><br>
+        <label for="email">email : </label>
+        <input id="email" type="email" name="email">
+        <br><br>
+        <label for="phone">phone number : </label>
+        <input type="text" name="phoneNumber" id="phone">
+        <br><br>
+        <label for="day">birthday : </label>
+        <input id="day" type="date" name="date">
+        <br><br>
+        <label for="age">age : </label>
+        <input id="age" type="number" name="age">
+        <p><b>Gender : </b></p>
+        <input type="radio" name="Gender" value="male" id="male" checked>
+        <label for="male">male</label>
+        <input type="radio" name="Gender" value="female" id="female">
+        <label for="female">female</label>
+        <br><br>
+        <p><b>which one do you know?!</b></p>
+        <input type="radio" id="python" name="python">
+        <label for="python">python</label>
+        <br>
+        <input type="radio" id="java" name="java">
+        <label for="java">java</label>
+        <br>
+        <input type="radio" id="html" name="html">
+        <label for="html">html</label>
+        <br><br>
+        <input type="radio" name="rule" id="rule">
+        <label for="rule">I agree with the <a href="#">rules</a></label>
+        <br><br>
+        <input type="button" value="submit">
+        <br><br>
+    </form>
 </body>
 </html>
