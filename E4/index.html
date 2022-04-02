@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        h2{
+            font-family: "2  Titr";
+            text-align: center;
+        }
+        h3{
+            font-weight: bolder;
+            font-size: large;
+        }
+        body{
+            font-family: "2  Lotus";
+            margin: 20px;
+            font-size: 18px;
+        }
+        table{
+            font-size: 20px;
+            font-weight: bolder;
+        }
+        option{
+            font-family: "2  Badr";
+            font-weight: bolder;
+            font-size: 15px;
+        }
+        a{
+            font-weight: bolder;
+            color: red;
+        }
+    </style>
+</head>
+<body dir="rtl">
+    <h2>برنامه بازی های ایران در جام جهانی 2022 قطر</h2>
+    <h3>تیم های حاضر در گروه ایران : </h3>
+    <ol start="1">
+        <li>انگلیس</li>
+        <li>آمریکا</li>
+        <li>ایران</li>
+        <li>برنده پلی آف اروپا :
+            <ul>
+                <li>ولز</li>
+                <li>اوکراین</li>
+                <li>اسکاتلند</li>
+
+
+            </ul>
+        </li>
+    </ol>
+    <h3>جدول رده بندی : </h3>
+<table border="1" cellpadding="15" width="80%" align="center">
+    <caption style="color: #F44336">جدول گروه B</caption>
+    <tr>
+        <th bgcolor="757575" style="color: white">رتبه</th>
+        <th bgcolor="757575" style="color: white">پرچم</th>
+        <th bgcolor="757575" style="color: white">تیم</th>
+        <th bgcolor="757575" style="color: white">بازی</th>
+        <th bgcolor="757575" style="color: white">امتیاز</th>
+
+    </tr>
+
+    <tr>
+        <td bgcolor="E0E0E0">1</td>
+        <td bgcolor="E0E0E0" align="center">
+            <img src="eng.png" height="50" width="70">
+        </td>
+        <td bgcolor="E0E0E0">انگلیس</td>
+        <td bgcolor="E0E0E0">0</td>
+        <td bgcolor="E0E0E0">0</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td align="center">
+            <img src="amrica.png" height="50" width="70">
+        </td>
+        <td>امریکا</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td bgcolor="E0E0E0">3</td>
+        <td bgcolor="E0E0E0" align="center">
+            <img src="iran.jpg" height="50" width="70">
+        </td>
+        <td bgcolor="E0E0E0">ایران</td>
+        <td bgcolor="E0E0E0">0</td>
+        <td bgcolor="E0E0E0">0</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td align="center">
+            <img src="velz.png" height="50" width="70">
+        </td>
+        <td>برنده پلی آف اروپا</td>
+        <td>0</td>
+        <td>0</td>
+    </tr>
+
+
+</table>
+    <br><br>
+<form>
+    <label for="teams">شما طرفدار کدام تیم در این گروه هستید؟ </label>
+    <select id="teams" >
+        <optgroup label="اروپا">
+            <option>انگلیس</option>
+        </optgroup>
+        <optgroup label="آمریکا">
+            <option>آمریکا</option>
+        </optgroup>
+        <optgroup label="آسیا">
+            <option>ایران</option>
+        </optgroup>
+        <optgroup label="آفریقا">
+            <option>برنده پلی آف اروپا</option>
+        </optgroup>
+    </select>
+    <br><br>
+    <span>به نظر شما کدام تیم ها از این گروه صعود میکنند؟ </span>
+    <label for="eng">انگلیس</label>
+    <input type="checkbox" id="eng" name="english">
+
+    <label for="amr">آمریکا</label>
+    <input type="checkbox" id="amr" name="america">
+
+    <label for="ir">ایران</label>
+    <input type="checkbox" id="ir" name="iran">
+
+    <label for="eur">برنده اروپا</label>
+    <input type="checkbox" id="eur" name="europe">
+    <br><br>
+    <input type="submit" value="تایید گزینه ها">
+    <input type="reset" value="پاک کردن گزینه ها">
+</form>
+    <p>برای اطلاعات بیشتر در این زمینه به سایت <a href="https://www.varzesh3.com/">ورزش 3</a> مراجعه کنید.</p>
+</body>
+</html>
